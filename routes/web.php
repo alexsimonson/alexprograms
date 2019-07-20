@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    // return view('welcome');
+    return view('index');
 });
 
 Route::get('/about', function(){
@@ -21,4 +22,8 @@ Route::get('/about', function(){
 
 Route::get('/portfolio', function(){
     return view('portfolio');
+});
+
+Route::get('/resume', function(){
+    return view('resume');
 });
