@@ -1,5 +1,5 @@
 @extends('header')
-@section('title', 'Users')
+@section('title', 'Portfolio')
 
 @section('content')
 <div class='card'>
@@ -53,7 +53,23 @@
         <h1>Music</h1>
     </div>
     <div class='card-body'>
-        <div class='row' id='soundcloud'>    
+        <div class='row' id='soundcloud'> 
+            <div class='col-12 col-md-12 col-lg-6 col-xl-4' id='megadethRiff'>
+                <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/654127658%3Fsecret_token%3Ds-uYiWS&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            </div>
+
+            <div class='col-12 col-md-12 col-lg-6 col-xl-4' id='deathFollows'>
+                <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/654128453%3Fsecret_token%3Ds-Qd1nW&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            </div>
+
+            <div class='col-12 col-md-12 col-lg-6 col-xl-4' id='phobia'>
+                <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/654122654%3Fsecret_token%3Ds-pgR7l&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            </div>
+
+            <div class='col-12 col-md-12 col-lg-6 col-xl-4' id='malevolentDreams'>
+                <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/654128090%3Fsecret_token%3Ds-b7N6z&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            </div>
+
             <div class='col-12 col-md-12 col-lg-6 col-xl-4' id='mistakesWereMade'>
                 <iframe width='100%' height='166' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/120588766&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false'></iframe>
             </div>

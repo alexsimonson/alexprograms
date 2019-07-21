@@ -1,5 +1,5 @@
-    @extends('header')
-@section('title', 'Welcome')
+@extends('header')
+@section('title', 'About Alex')
 
 @section('content')
 <div class='row'>
